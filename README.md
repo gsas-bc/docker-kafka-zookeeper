@@ -5,15 +5,16 @@ Docker image for Kafka message broker including Zookeeper
 Build
 -----
 ```
-$ docker build .
+$ docker build -t <image-name> .
 [...]
-Successfully built 9b382d40bccc
+ => => writing image sha256:<some-hash>          0.0s
+ => => naming to docker.io/library/<image-name>
 ```
 
 Run container
 -------------
 ```
-docker run -p 2181:2181 -p 9092:9092 -e ADVERTISED_HOST=<YOUR_HOST> 9b382d40bccc
+docker run -p 2181:2181 -p 9092:9092 -e ADVERTISED_HOST=<YOUR_HOST> <image-name>
 ```
 
 Test
