@@ -39,10 +39,6 @@ test2
 test3
 ```
 
-Get from Dockerhub
-------------------
-https://hub.docker.com/r/johnnypark/kafka-zookeeper/
-
 Credits
 -------
-Originally cloned and inspired by https://github.com/spotify/docker-kafka
+Originally cloned and inspired by https://github.com/hey-johnnypark/docker-kafka-zookeeper
